@@ -15,9 +15,3 @@ before_script:
  - vendor/phpunit/phpunit/composer/bin/phpunit
  - composer update --dev 
 
-notifications:
-  irc: "irc.freenode.org#phpdocumentor"
-  email:
-    - mike.vanriel@naenius.com
-    - ashnazg@php.net
-    - boen.robot@gmail.com
